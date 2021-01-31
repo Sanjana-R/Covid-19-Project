@@ -1,18 +1,30 @@
-src -- has the wrappers required to use the models or functionalities
-models -- holds the trained models
-pipeline_ui -- hold the GUI for data_pipeline
-figures -- output directory
-data -- input directory and may hold raw/processed/interim data
+src : has the wrappers required to use the models or functionalities
 
-requirements.txt -- holds the packages to be installed to execute the pipeline
-run.py -- program to call the UI
+models : holds the trained models
+
+pipeline_ui : hold the GUI for data_pipeline
+
+figures : output directory
+
+data : input directory and may hold raw/processed/interim data
 
 
-=============================================================================================================================================
+requirements.txt : holds the packages to be installed to execute the pipeline
+
+run.py : program to call the UI
+
+Tools
+=================================
+
+
+
 
 
 **** Create miniconda environment(to enable single project based environment that doesn't mix up with other project environments) ****
-Miniconda steps:
+
+
+Miniconda steps
+=================
 Install miniconda
 
 Then do the following
@@ -61,8 +73,11 @@ To deactivate the project environment
 conda deactivate
 
 
+Additional
+===========
 
-=======================================================================================================================
+
+
 
 
 **** To install requirements after pulling updated repo use->> pip isntall -r requirements.txt ****
